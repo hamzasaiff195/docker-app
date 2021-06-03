@@ -1,5 +1,5 @@
 # Use a node base image
-FROM node:node:12-alpine
+FROM node:12-alpine
 
 # Working directory
  WORKDIR usr/src
