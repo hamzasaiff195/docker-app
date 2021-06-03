@@ -1,10 +1,10 @@
 Jenkinsfile (Declarative Pipeline)
 pipeline {
-    agent { docker { image 'node:14-alpine' } }
+    agent { docker { image 'node:latest' } }
     stages {
         stage('build') {
             steps {
-                sh 'npm --version'
+                bat 'npm --version'
             }
         }
     }
