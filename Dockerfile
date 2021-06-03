@@ -1,5 +1,5 @@
 # Use a node base image
-FROM node:14-alpine
+FROM node:14
 
 
 # Working directory
